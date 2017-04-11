@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<script src="./lib/jquery.js"></script>
+<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"
+	data-build-remove="false"></script>
+<link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
+
+<script src="./js/main.js"></script>
+
+<title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework
+	- Single-Page</title>
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+	<div data-role="page">
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<h1>Угадай исполнителя</h1>
+		</div>
+		<!-- /header -->
+
+		<div data-role="content" style="background: #FFFFFF">
+			<img id="img" src="images/sia.jpg" alt="Подсказка"
+				width="device-width" height=200 />
+			<audio id="music" src="media/Sia-Cheap_Thrills.mp3"
+				controls="controls">
+			</audio>
+			<p id='label'></p>
+			<button id="check_answer">Проверить ответ</button>
+			<input type="text" name="Answer" id="answer" />
+			<button id="btn_next" type="button">
+				<span class="ui-button-text">Следующий вопрос</span>
+			</button>
+		</div>
+		<!-- /content -->
+
+
+	</div>
+	<!-- /page -->
+</body>
+</html>

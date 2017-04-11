@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3" package="org.example.notification" version="1.0.0">
+	<profile name="mobile" />
+	<ui-application appid="org.example.notification" exec="notification" type="capp" multiple="false" taskmanage="true" nodisplay="false">
+		<icon>notification.png</icon>
+		<label>notification</label>
+	</ui-application>
+	<privileges>
+		<privilege>http://tizen.org/privilege/systemsettings</privilege>
+	</privileges>
+</manifest>

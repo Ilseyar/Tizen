@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+
+<script src="./lib/jquery.js"></script>
+<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"
+	data-build-remove="false"></script>
+<link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
+
+<script src="./js/main.js"></script>
+<link rel="stylesheet" href="./css/style.css">
+
+
+<title>Blog</title>
+
+</head>
+
+<body>
+	<!-- Start of first page: #one -->
+	<div data-role="page" id="post-list" style="background: #FFFFFF">
+		<div data-role="header" data-position="fixed">
+			<h1>Список постов</h1>
+		</div>
+		<!-- /header -->
+
+		<div data-role="content">
+			<ul data-role="listview" id="lv-posts"></ul>
+			<p>
+				<a href="#post-add" data-role="button">Добавить</a>
+			</p>
+		</div> <!-- /content -->
+	</div> <!-- /page one -->
+	
+
+
+	<!-- Start of second page: #two -->
+	<div data-role="page" id="post-add" style="background: #FFFFFF">
+		<div data-role="header" data-position="fixed">
+			<h1>Добавить</h1>
+		</div>
+		<!-- /header -->
+
+		<div data-role="content">
+			<input type="text" id="input-title" /> <input type="text"
+				id="input-author" />
+			<button id="btn-send-post">Отправить</button>
+		</div>
+		<!-- /content -->
+	</div>
+	<!-- /page two -->
+
+</body>
+</html>

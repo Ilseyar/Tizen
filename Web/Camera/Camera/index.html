@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<script src="./lib/jquery.js"></script>
+<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"
+	data-build-remove="false"></script>
+<link rel="stylesheet" href="./lib/tau/mobile/theme/default/tau.css">
+
+<script src="./js/main.js"></script>
+
+<title>Камера</title>
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+	<div data-role="page">
+		<div data-role="header" data-position="fixed">
+			<h1>Камера</h1>
+		</div>
+		<!-- /header -->
+
+		<div data-role="content">
+			<!--<button id="take-picture">Сделать снимок</button>
+            <button id="start-video">Записать видео</button>
+            <button id="stop-video">Остановить запись</button>-->
+			<div id="video-container"></div>
+			<div id="control-buttons">
+				<button data-role="button" data-inline="true" id="picture-button">
+					Сделать снимок</button>
+			</div>
+		</div>
+		<!-- /content -->
+	</div>
+	<!-- /page -->
+</body>
+</html>

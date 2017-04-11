@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.4" package="org.example.animation" version="1.0.0">
+	<profile name="mobile" />
+	<ui-application appid="org.example.animation" exec="animation" type="capp" multiple="false" taskmanage="true" nodisplay="false" launch_mode="single">
+		<icon>animation.png</icon>
+		<label>animation</label>
+	</ui-application>
+</manifest>
